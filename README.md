@@ -8,7 +8,9 @@ Setup script separated that installs git, python, and pip for the dev container.
 
 Requires a `.env` file with the following secrets:
 ```
+AWS_REGION=
+AWS_S3_BUCKET=
+
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
-S3_BUCKET=
 ```

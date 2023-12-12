@@ -32,6 +32,6 @@ view_query = f"CREATE VIEW data AS SELECT * FROM read_parquet('s3://{s3_bucket}/
 con.execute(view_query)
 
 # Query the data
-query = 'SELECT * FROM data;'
+query = 'SELECT COUNT(*) FROM data;'
 result = con.execute(query).fetchall()
 print(result)

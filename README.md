@@ -5,3 +5,10 @@ A DuckDB Client to perform analytical queries over S3 parquet files generated vi
 Ubuntu 20.04 for a VSCode dev container.
 
 Setup script separated that installs git, python, and pip for the dev container. May have to be modified if running elsewhere.
+
+Requires a `.env` file with the following secrets:
+```
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+S3_BUCKET=
+```
